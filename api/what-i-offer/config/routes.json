@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/what-i-offers",
+      "handler": "what-i-offer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/what-i-offers/count",
+      "handler": "what-i-offer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/what-i-offers/:id",
+      "handler": "what-i-offer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/what-i-offers",
+      "handler": "what-i-offer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/what-i-offers/:id",
+      "handler": "what-i-offer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/what-i-offers/:id",
+      "handler": "what-i-offer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

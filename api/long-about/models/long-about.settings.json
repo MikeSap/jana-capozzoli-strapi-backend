@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "long_abouts",
+  "info": {
+    "name": "Long About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "long_about_content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/long-about",
+      "handler": "long-about.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/long-about",
+      "handler": "long-about.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/long-about",
+      "handler": "long-about.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

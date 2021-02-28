@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_i_offers",
+  "info": {
+    "name": "What I Offer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

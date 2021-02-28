@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_and_packages",
+  "info": {
+    "name": "Pricing & Packages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "package_image_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "package_image_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "package_image_3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "package_desc_1": {
+      "type": "string"
+    },
+    "package_desc_2": {
+      "type": "string"
+    },
+    "package_desc_3": {
+      "type": "string"
+    }
+  }
+}
